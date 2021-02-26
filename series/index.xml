@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Akasha</title>
-    <link>/series/</link>
+    <link>https://akashaa.xyz/series/</link>
     <description>Recent content in Series on Akasha</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://akashaa.xyz/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PaperMod</title>
-      <link>/series/papermod/</link>
+      <link>https://akashaa.xyz/series/papermod/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/series/papermod/</guid>
+      <guid>https://akashaa.xyz/series/papermod/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes Guide</title>
-      <link>/series/themes-guide/</link>
+      <link>https://akashaa.xyz/series/themes-guide/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/series/themes-guide/</guid>
+      <guid>https://akashaa.xyz/series/themes-guide/</guid>
       <description></description>
     </item>
     

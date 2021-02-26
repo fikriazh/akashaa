@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Akasha</title>
-    <link>/categories/</link>
+    <link>https://akashaa.xyz/categories/</link>
     <description>Recent content in Categories on Akasha</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://akashaa.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>syntax</title>
-      <link>/categories/syntax/</link>
+      <link>https://akashaa.xyz/categories/syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/syntax/</guid>
+      <guid>https://akashaa.xyz/categories/syntax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>themes</title>
-      <link>/categories/themes/</link>
+      <link>https://akashaa.xyz/categories/themes/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/categories/themes/</guid>
+      <guid>https://akashaa.xyz/categories/themes/</guid>
       <description></description>
     </item>
     
