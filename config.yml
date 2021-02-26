@@ -1,5 +1,4 @@
-baseURL: ""
-relativeURLS: true
+baseURL: "https://akashaa.xyz"
 title: Akasha
 paginate: 5
 theme: hugo-PaperMod
