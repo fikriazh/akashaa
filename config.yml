@@ -46,11 +46,11 @@ params:
     author: Theme PaperMod
     # author: ["Me", "You"] # multiple authors
 
-    defaultTheme: auto
+    defaultTheme: dark
     # disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
-    # disableSpecial1stPost: true
+    disableSpecial1stPost: false
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
@@ -72,7 +72,7 @@ params:
               url: tags
 
     homeInfoParams:
-        Title: "PaperMod"
+        Title: "Mahasemesta"
         Content: >
             Welcome to demo of hugo's theme PaperMod.
 
@@ -135,10 +135,7 @@ taxonomies:
 #         style: monokai
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
-
+    
     twitter:
         disabled: false
         enableDNT: true
