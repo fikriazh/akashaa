@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Akasha</title>
+    <link>https://akashaa.xyz/categories/hugo/</link>
+    <description>Recent content in Hugo on Akasha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://akashaa.xyz/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formating</title>
+      <link>https://akashaa.xyz/posts/formating/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://akashaa.xyz/posts/formating/</guid>
+      <description>Egestas fringilla phasellus faucibus scelerisque eleifend. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Senectus et netus et malesuada fames ac turpis egestas. Auctor augue mauris augue neque gravida in fermentum et sollicitudin. Aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Praesent tristique magna sit amet purus. Nunc consequat interdum varius sit amet mattis. Posuere lorem ipsum dolor sit amet consectetur adipiscing elit.</description>
+    </item>
+    
+    <item>
+      <title>Organizing Content</title>
+      <link>https://akashaa.xyz/posts/organizing-content/</link>
+      <pubDate>Wed, 19 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akashaa.xyz/posts/organizing-content/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta. Senectus et netus et malesuada fames ac turpis. Viverra justo nec ultrices dui. Mattis molestie a iaculis at erat pellentesque. Luctus venenatis lectus magna fringilla urna. Congue eu consequat ac felis donec et odio. Non arcu risus quis varius quam quisque id. Ut tellus elementum sagittis vitae et.</description>
+    </item>
+    
+    <item>
+      <title>Netlify Deploy</title>
+      <link>https://akashaa.xyz/posts/netlify-deploy/</link>
+      <pubDate>Sat, 12 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akashaa.xyz/posts/netlify-deploy/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta. Senectus et netus et malesuada fames ac turpis. Viverra justo nec ultrices dui. Mattis molestie a iaculis at erat pellentesque. Luctus venenatis lectus magna fringilla urna. Congue eu consequat ac felis donec et odio. Non arcu risus quis varius quam quisque id. Ut tellus elementum sagittis vitae et.</description>
+    </item>
+    
+    <item>
+      <title>Theming Customize</title>
+      <link>https://akashaa.xyz/posts/theming-customize/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akashaa.xyz/posts/theming-customize/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta. Senectus et netus et malesuada fames ac turpis. Viverra justo nec ultrices dui. Mattis molestie a iaculis at erat pellentesque. Luctus venenatis lectus magna fringilla urna. Congue eu consequat ac felis donec et odio. Non arcu risus quis varius quam quisque id. Ut tellus elementum sagittis vitae et.</description>
+    </item>
+    
+    <item>
+      <title>Hosting on Github</title>
+      <link>https://akashaa.xyz/posts/hosting-on-github/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akashaa.xyz/posts/hosting-on-github/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta. Senectus et netus et malesuada fames ac turpis. Viverra justo nec ultrices dui. Mattis molestie a iaculis at erat pellentesque. Luctus venenatis lectus magna fringilla urna. Congue eu consequat ac felis donec et odio. Non arcu risus quis varius quam quisque id. Ut tellus elementum sagittis vitae et.</description>
+    </item>
+    
+    <item>
+      <title>Static Web</title>
+      <link>https://akashaa.xyz/posts/static-web/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://akashaa.xyz/posts/static-web/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Erat imperdiet sed euismod nisi porta. Senectus et netus et malesuada fames ac turpis. Viverra justo nec ultrices dui. Mattis molestie a iaculis at erat pellentesque. Luctus venenatis lectus magna fringilla urna. Congue eu consequat ac felis donec et odio. Non arcu risus quis varius quam quisque id. Ut tellus elementum sagittis vitae et.</description>
+    </item>
+    
+  </channel>
+</rss>

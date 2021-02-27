@@ -3,18 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://akashaa.xyz/posts/papermod/papermod-installation/</loc>
+    <loc>https://akashaa.xyz/posts/installation-update/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://akashaa.xyz/posts/papermod/papermod-features/</loc>
+    <loc>https://akashaa.xyz/posts/features/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://akashaa.xyz/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/categories/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/formating/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/categories/hugo/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/categories/hypnotherapy/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/jiwa/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/categories/soul/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/therapy/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -33,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://akashaa.xyz/posts/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://akashaa.xyz/series/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url>
@@ -48,8 +83,48 @@
   </url>
   
   <url>
-    <loc>https://akashaa.xyz/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://akashaa.xyz/categories/semesta/</loc>
+    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/soul-journey/</loc>
+    <lastmod>2020-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/between-life/</loc>
+    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/regression/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/spiritual/</loc>
+    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/semesta/</loc>
+    <lastmod>2020-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/archangel/</loc>
+    <lastmod>2019-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/astral-plane/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/realm-of-soul/</loc>
+    <lastmod>2019-03-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,7 +143,7 @@
   </url>
   
   <url>
-    <loc>https://akashaa.xyz/posts/markdown-syntax/</loc>
+    <loc>https://akashaa.xyz/posts/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -130,6 +205,66 @@
   <url>
     <loc>https://akashaa.xyz/posts/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/death-or-carries-on/</loc>
+    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/journey/</loc>
+    <lastmod>2019-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/organizing-content/</loc>
+    <lastmod>2018-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/netlify-deploy/</loc>
+    <lastmod>2018-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/theming-customize/</loc>
+    <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/hosting-on-github/</loc>
+    <lastmod>2018-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/static-web/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/consciousness/</loc>
+    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/mesmerism/</loc>
+    <lastmod>2017-08-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/delta-theta/</loc>
+    <lastmod>2017-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/brain-wave/</loc>
+    <lastmod>2017-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://akashaa.xyz/posts/inductoin-phase/</loc>
+    <lastmod>2017-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
