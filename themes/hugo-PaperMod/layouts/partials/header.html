@@ -47,6 +47,7 @@
 
     </style>
 </noscript>
+
 <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -56,7 +57,9 @@
                 <img src="{{- .Site.Params.label.icon | absLangURL -}}" alt="logo" aria-label="logo"
                     height="{{- .Site.Params.label.iconHeight | default "30px" -}}">
                 {{- end -}}
+                <span id="judul">
                 {{- .Site.Params.label.text | default .Site.Title -}}
+                </span>
             </a>
             {{- end }}
             <span class="logo-switches">

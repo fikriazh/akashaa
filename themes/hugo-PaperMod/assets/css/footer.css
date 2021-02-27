@@ -19,7 +19,7 @@
 
 .footer a {
     color: inherit;
-    border-bottom: 1px solid var(--secondary)
+    
 }
 
 .footer a:hover {
@@ -29,8 +29,8 @@
 .top-link {
     visibility: hidden;
     position: fixed;
-    bottom: 60px;
-    right: 30px;
+    bottom: 30px;
+    right: 20px;
     z-index: 99;
     background: var(--tertiary);
     width: 42px;

@@ -9,6 +9,7 @@
     <span>&middot;</span>
     <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
 </footer>
+
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
     <button class="top-link" id="top-link" type="button" accesskey="g">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
@@ -16,6 +17,7 @@
         </svg>
     </button>
 </a>
+
 {{- partial "extend_footer.html" . -}}
 {{- $isHLJSdisabled := (.Site.Params.assets.disableHLJS | default .Params.disableHLJS ) }}
 {{- if (and (eq .Kind "page") (ne .Layout "archives") (ne .Layout "search") (not $isHLJSdisabled)) }}

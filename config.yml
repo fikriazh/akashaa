@@ -21,19 +21,18 @@ languages:
         weight: 1
         menu:
             main:
-                - name: Archive
-                  url: archives
-                  weight: 5
+                - name: About
+                  url: about/
+                  weight: 1
                 - name: Search
                   url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
+                  weight: 3
                 - name: Categories
                   url: categories/
-                  weight: 10
-
+                  weight: 2
+                - name: Contact
+                  url: contact/
+                  weight: 4
 outputs:
     home:
         - HTML
@@ -42,12 +41,12 @@ outputs:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author: Theme PaperMod
+    description: "Story of Semesta"
+    author: Akasha
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: dark
-    # disableThemeToggle: true
+    disableThemeToggle: true
     ShowShareButtons: true
     ShowReadingTime: true
     disableSpecial1stPost: false
