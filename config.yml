@@ -108,21 +108,15 @@ params:
         - name: RsS
           url: "index.xml"
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
+    # logo, if want non text logo
+    label:
+         text: "Akasha"
+         icon: icon.png
+         iconHeight: 35
 
     # analytics:
     #     google:
     #         SiteVerificationTag: "XYZabc"
-
-    # assets:
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
 
     # cover:
     #     hidden: true # hide everywhere but not in structured data
