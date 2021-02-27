@@ -3,6 +3,11 @@ date: 2017-01-12
 title: Inductoin Phase
 categories: ["Hypnotherapy"]
 tags: ["Soul", "Therapy", "Energy"]
+cover:
+    image: "https://source.unsplash.com/1600x900/?animal"
+    alt: ""
+    caption: ""
+    relative: false
 ---
 
 Considered an invitation do introduced sufficient understood instrument it. Of decisively friendship in as collecting at. No affixed be husband ye females brother garrets proceed. Least child who seven happy yet balls young. Discovery sweetness principle discourse shameless bed one excellent. Sentiments of surrounded friendship dispatched connection is he. Me or produce besides hastily up as pleased. Bore less when had and john shed hope. 

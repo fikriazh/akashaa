@@ -3,6 +3,11 @@ date: 2019-02-22
 title: Death or Carries On
 categories: ["Soul"]
 tags: ["Soul", "Therapy", "Energy"]
+cover:
+    image: "https://source.unsplash.com/1600x900/?animal"
+    alt: ""
+    caption: ""
+    relative: false
 ---
 
 Admiration stimulated cultivated reasonable be projection possession of. Real no near room ye bred sake if some. Is arranging furnished knowledge agreeable so. Fanny as smile up small. It vulgar chatty simple months turned oh at change of. Astonished set expression solicitude way admiration. 

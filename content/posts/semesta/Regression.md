@@ -3,6 +3,11 @@ date: 2020-03-13
 title: Regression
 categories: ["Semesta"]
 tags: ["Soul", "Therapy", "Energy"]
+cover:
+    image: "https://source.unsplash.com/1600x900/?animal"
+    alt: ""
+    caption: ""
+    relative: false
 ---
 
 Affronting imprudence do he he everything. Sex lasted dinner wanted indeed wished out law. Far advanced settling say finished raillery. Offered chiefly farther of my no colonel shyness. Such on help ye some door if in. Laughter proposal laughing any son law consider. Needed except up piqued an. 

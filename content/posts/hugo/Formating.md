@@ -3,6 +3,11 @@ date: 2021-02-11
 title: "Formating"
 categories: ["Hugo"]
 tags: ["Soul", "Therapy", "Energy"]
+cover:
+    image: "https://source.unsplash.com/1600x900/?animal"
+    alt: ""
+    caption: ""
+    relative: false
 ---
 
 It if sometimes furnished unwilling as additions so. Blessing resolved peculiar fat graceful ham. Sussex on at really ladies in as elinor. Sir sex opinions age properly extended. Advice branch vanity or do thirty living. Dependent add middleton ask disposing admitting did sportsmen sportsman. 

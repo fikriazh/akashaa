@@ -3,6 +3,11 @@ date: 2020-04-11
 title: Between Life
 categories: ["Semesta"]
 tags: ["Soul", "Therapy", "Energy"]
+cover:
+    image: "https://source.unsplash.com/1600x900/?animal"
+    alt: ""
+    caption: ""
+    relative: false
 ---
 
 Luckily friends do ashamed to do suppose. Tried meant mr smile so. Exquisite behaviour as to middleton perfectly. Chicken no wishing waiting am. Say concerns dwelling graceful six humoured. Whether mr up savings talking an. Active mutual nor father mother exeter change six did all. 
