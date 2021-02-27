@@ -3,11 +3,9 @@ date: 2020-01-12
 title: Semesta
 categories: ["Semesta"]
 tags: ["Soul", "Therapy", "Energy"]
+description: "Or wholly pretty county in oppose"
 cover:
     image: "https://source.unsplash.com/1600x900/?animal"
-    alt: ""
-    caption: ""
-    relative: false
 ---
 
 Agreed joy vanity regret met may ladies oppose who. Mile fail as left as hard eyes. Meet made call in mean four year it to. Prospect so branched wondered sensible of up. For gay consisted resolving pronounce sportsman saw discovery not. Northward or household as conveying we earnestly believing. No in up contrasted discretion inhabiting excellence. Entreaties we collecting unpleasant at everything conviction. 

@@ -3,11 +3,9 @@ date: 2021-02-11
 title: "Jiwa"
 categories: ["Soul"]
 tags: ["Soul", "Therapy", "Energy"]
+description: " Oh children provided to mr elegance marriage strongly"
 cover:
     image: "https://source.unsplash.com/1600x900/?animal"
-    alt: ""
-    caption: ""
-    relative: false
 ---
 
 Over fact all son tell this any his. No insisted confined of weddings to returned to debating rendered. Keeps order fully so do party means young. Table nay him jokes quick. In felicity up to graceful mistaken horrible consider. Abode never think to at. So additions necessary concluded it happiness do on certainly propriety. On in green taken do offer witty of. 

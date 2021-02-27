@@ -10,7 +10,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 .post-single {
     /* justify content */
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 #terms_title {
@@ -48,4 +48,10 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 .nav {
     padding:10px 10% 0;
+}
+
+/* cari */
+
+#cari {
+    padding:10px 15px;
 }

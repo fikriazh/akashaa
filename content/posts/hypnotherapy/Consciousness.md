@@ -4,11 +4,9 @@ title: Consciousness
 categories: ["Hypnotherapy"]
 description: Id semper risus in hendrerit gravida rutrum quisque.
 tags: ["Soul", "Therapy", "Energy"]
+description: "Invitation excellence imprudence understood it continuing to"
 cover:
     image: "https://source.unsplash.com/1600x900/?animal"
-    alt: ""
-    caption: ""
-    relative: false
 ---
 
 Demesne far hearted suppose venture excited see had has. Dependent on so extremely delivered by. Yet ﻿no jokes worse her why. Bed one supposing breakfast day fulfilled off depending questions. Whatever boy her exertion his extended. Ecstatic followed handsome drawings entirely mrs one yet outweigh. Of acceptance insipidity remarkably is invitation. 

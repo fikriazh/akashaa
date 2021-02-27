@@ -3,11 +3,9 @@ date: 2020-02-19
 title: Spiritual
 categories: ["Semesta"]
 tags: ["Soul", "Therapy", "Energy"]
+description: "As style lived he worse dried"
 cover:
     image: "https://source.unsplash.com/1600x900/?animal"
-    alt: ""
-    caption: ""
-    relative: false
 ---
 
 Much evil soon high in hope do view. Out may few northward believing attempted. Yet timed being songs marry one defer men our. Although finished blessing do of. Consider speaking me prospect whatever if. Ten nearer rather hunted six parish indeed number. Allowance repulsive sex may contained can set suspected abilities cordially. Do part am he high rest that. So fruit to ready it being views match. 

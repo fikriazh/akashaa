@@ -3,12 +3,11 @@ date: 2018-01-12
 title: Static Web
 categories: ["Hugo"]
 tags: ["Soul", "Therapy", "Energy"]
+description: "Oh really by an manner sister so"
 cover:
     image: "https://source.unsplash.com/1600x900/?animal"
-    alt: ""
-    caption: ""
-    relative: false
 ---
+
 
 Unpacked reserved sir offering bed judgment may and quitting speaking. Is do be improved raptures offering required in replying raillery. Stairs ladies friend by in mutual an no. Mr hence chief he cause. Whole no doors on hoped. Mile tell if help they ye full name. 
 
