@@ -307,6 +307,10 @@
     margin-top: 56px
 }
 
+.post-tags {
+    text-align: center;
+}
+
 .post-tags li {
     display: inline-block;
     margin-inline-end: 3px;
@@ -341,7 +345,8 @@
     padding-inline-start: var(--radius);
     display: flex;
     justify-content: center;
-    overflow-x: auto
+    overflow-x: auto;
+    padding: 5px 0;
 }
 
 .share-buttons a {
@@ -349,7 +354,7 @@
 }
 
 .share-buttons a:not(:last-of-type) {
-    margin-inline-end: 12px
+    margin-inline-end: 1.2rem;
 }
 
 .share-buttons a svg {
@@ -405,8 +410,9 @@ h6:hover .anchor {
 }
 
 .paginav a {
-    padding-inline-start: 14px;
-    padding-inline-end: 14px;
+    padding: 5px 15px;
+    padding-inline-start: 15px;
+    padding-inline-end: 15px;
     border-radius: var(--radius);
 }
 
