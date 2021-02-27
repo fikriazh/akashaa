@@ -35,6 +35,11 @@
         padding:15px;
     }
 
+    #menu {
+        overflow-x: none;
+        margin:0;
+    }   
+
 }    
 
 @media screen and (max-width: 768px) {
@@ -74,7 +79,7 @@
 /* footer */
 @media screen and (max-width: 900px) {
     .list .top-link {
-        transform: translateY(-5rem);
+        transform: none;
     }
 }
 

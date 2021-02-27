@@ -26,13 +26,11 @@ languages:
                   weight: 1
                 - name: Search
                   url: search/
-                  weight: 4
-                - name: Categories
-                  url: categories/
                   weight: 3
-                - name: Archive
-                  url: archives/
+                - name: Articles
+                  url: articles/
                   weight: 2
+                
 outputs:
     home:
         - HTML
@@ -76,13 +74,7 @@ params:
     homeInfoParams:
         Title: "Mahasemesta"
         Content: >
-            Welcome to demo of hugo's theme PaperMod.
-
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-            - ☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive
-
-            - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            Welcome to demo of hugo's theme PaperMod. ☄️ **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX. ☁️ PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
 
     # logo, if want non text logo
     label:
