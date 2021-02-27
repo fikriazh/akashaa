@@ -26,13 +26,13 @@ languages:
                   weight: 1
                 - name: Search
                   url: search/
-                  weight: 3
+                  weight: 4
                 - name: Categories
                   url: categories/
+                  weight: 3
+                - name: Posts
+                  url: posts/
                   weight: 2
-                - name: Contact
-                  url: contact/
-                  weight: 4
 outputs:
     home:
         - HTML
@@ -55,7 +55,7 @@ params:
     disableSpecial1stPost: false
     displayFullLangName: true
     ShowPostNavLinks: true
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false
     ShowToc: true
     # comments: false
     images: ["papermod-cover.png"]

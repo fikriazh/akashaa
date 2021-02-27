@@ -9,5 +9,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 }
 
 .post-single {
+    /* justify content */
     text-align: justify;
+    hyphens: auto;
 }

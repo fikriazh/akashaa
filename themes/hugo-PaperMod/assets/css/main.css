@@ -7,7 +7,8 @@
 }
 
 .page-header h1 {
-    font-size: 40px
+    font-size: 40px;
+    text-align: center;
 }
 
 .pagination {
@@ -19,7 +20,7 @@
     font-size: 13px;
     line-height: 36px;
     background: var(--primary);
-    border-radius: calc(36px / 2);
+    border-radius: 10px;
     padding: 0 16px
 }
 
