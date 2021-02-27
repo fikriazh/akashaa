@@ -34,24 +34,6 @@ languages:
                   url: categories/
                   weight: 10
 
-    id:
-        languageName: "EN"
-        weight: 2
-        menu:
-            main:
-                - name: Berkas
-                  url: archives
-                  weight: 5
-                - name: Pencarian
-                  url: search/
-                  weight: 10
-                - name: Tagar
-                  url: tags/
-                  weight: 10
-                - name: Kategori
-                  url: categories/
-                  weight: 10
-
 outputs:
     home:
         - HTML
