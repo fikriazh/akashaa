@@ -1,15 +1,15 @@
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     .nav {
         justify-content:center;
     }
 
     .logo {
         height:50px;
-        margin:0 20%;
+        margin:15px 20%;
     }
 
     .logo a img {
-        height:30px;
+        height:45px;
         margin: 0;
     }
 
@@ -50,7 +50,7 @@
 
     /* post-entry */
     .first-entry {
-        min-height: 200px;
+        min-height: 175px;
     }
 
     /* archive */

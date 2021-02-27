@@ -1,6 +1,7 @@
 .page-header,
 .post-header {
     margin: 0 auto 20px auto;
+    text-align: center;
 }
 
 .post-title {
@@ -18,7 +19,10 @@
     color: var(--secondary);
     font-size: 14px;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
 }
 
 .post-meta .i18n_list li {

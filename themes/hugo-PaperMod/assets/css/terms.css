@@ -1,3 +1,7 @@
+.terms-tags {
+    text-align: center;
+}
+
 .terms-tags li {
     display: inline-block;
     margin: 10px;

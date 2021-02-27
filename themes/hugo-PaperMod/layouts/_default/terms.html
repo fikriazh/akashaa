@@ -4,7 +4,7 @@
     <h1>Categories</h1>
 </header>
 
-<ul class="terms-tags">
+<ul class="terms-tags" id="terms_title">
     {{ range .Site.Taxonomies.categories }}
     <li>
         <a href="{{ .Page.Permalink }}">{{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>

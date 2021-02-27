@@ -30,8 +30,8 @@ languages:
                 - name: Categories
                   url: categories/
                   weight: 3
-                - name: Posts
-                  url: posts/
+                - name: Archive
+                  url: archives/
                   weight: 2
 outputs:
     home:

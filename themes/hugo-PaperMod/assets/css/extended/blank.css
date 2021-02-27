@@ -13,3 +13,40 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     text-align: justify;
     hyphens: auto;
 }
+
+#terms_title {
+    margin: 20px 0;
+}
+
+/* center placeholder */
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+
+#searchInput {
+    text-align: center;
+    height:50px;
+}
+
+#searchResults {
+    text-align: center;
+}
+
+/* header padding */
+
+.nav {
+    padding:10px 10% 0;
+}
