@@ -41,7 +41,7 @@ outputs:
         - JSON
 
 permalinks:
-    posts: "/articles/:title/"
+    posts: "/:title/"
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -57,7 +57,7 @@ params:
     displayFullLangName: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: false
-    ShowToc: true
+    ShowToc: false
     comments: true
     images: ["papermod-cover.png"]
 
