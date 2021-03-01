@@ -40,7 +40,7 @@ outputs:
         - JSON
 
 permalinks:
-    posts: "/blog/:title/"
+    blog: "blog/:title"
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.

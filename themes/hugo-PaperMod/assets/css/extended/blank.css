@@ -4,6 +4,11 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 
+/* use Exo 2 font */
+h1, h2, h3, #menu {
+    font-family: 'Exo 2', sans-serif;
+ }
+
 #search_svg {
     margin-right: 10px;
 }
