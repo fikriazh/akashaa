@@ -1,17 +1,16 @@
-baseURL: "https://akashaa.xyz"
-title: Akasha
+baseURL: "https://mahasemesta.xyz"
+title: Mahasemesta
 paginate: 5
 theme: hugo-PaperMod
 
-DisqusShortname: "akashaa"
+DisqusShortname: "https-mahasemesta-xyz"
+googleAnalytics: "G-YNRC5F8LG5"
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-# googleAnalytics: UA-123-45
 
 minify:
     disableXML: false
