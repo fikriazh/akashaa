@@ -5,11 +5,11 @@
 
     .logo {
         height:50px;
-        margin:15px 20%;
+        margin:15px 30%;
     }
 
     .logo a img {
-        height:45px;
+        height:4rem;
         margin: 0;
     }
 
@@ -19,8 +19,8 @@
         justify-content: center;
     }
 
-    .first-entry .entry-header{
-        display:none;
+    .first-entry .entry-header h1{
+        display:block;
     }
 
     .first-entry .entry-content {

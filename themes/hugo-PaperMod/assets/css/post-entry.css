@@ -16,6 +16,7 @@
 }
 
 .first-entry .entry-header h1 {
+    display:none;
     font-size: 34px;
     line-height: 1.3
 }

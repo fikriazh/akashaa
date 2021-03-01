@@ -13,10 +13,6 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     /* text-align: justify; */
 }
 
-#terms_title {
-    margin: 20px 0;
-}
-
 /* center placeholder */
 
 ::-webkit-input-placeholder {
@@ -50,8 +46,14 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     padding:10px 10% 0;
 }
 
-/* cari */
+/* blog info */
 
-#cari {
-    padding:10px 15px;
+.blog-info {
+    margin:20px 0;
+}
+
+/* tombol */
+
+#tombol:hover {
+    text-decoration: underline;
 }

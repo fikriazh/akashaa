@@ -25,8 +25,8 @@ languages:
                 - name: About
                   url: about/
                   weight: 1
-                - name: Articles
-                  url: articles/
+                - name: Blog
+                  url: blog/
                   weight: 2
                 - name: Contact
                   url: contact/
@@ -40,7 +40,7 @@ outputs:
         - JSON
 
 permalinks:
-    posts: "/:title/"
+    posts: "/blog/:title/"
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -58,12 +58,12 @@ params:
     ShowBreadCrumbs: false
     ShowToc: false
     comments: true
-    images: ["papermod-cover.png"]
+    images: ["ms.png"]
 
     profileMode:
         enabled: false
         title: PaperMod
-        imageUrl: "#"
+        imageUrl: "ms.png"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120
@@ -80,9 +80,9 @@ params:
 
     # logo
     label:
-         text: "Mahasemesta"
-         icon: icon.png
-         iconHeight: 35
+         text: ""
+         icon: ms.png
+         iconHeight: 50
 
     # analytics:
     #     google:
@@ -105,7 +105,7 @@ params:
 taxonomies:
     category: categories
     tag: tags
-    series: series
+    series: series    
 
 # markup:
 #     highlight:
