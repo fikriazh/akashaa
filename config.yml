@@ -81,7 +81,7 @@ params:
     # logo
     label:
          text: ""
-         icon: ms.png
+         icon: favicon/android-chrome-192x192.png
          iconHeight: 50
 
     # analytics:
