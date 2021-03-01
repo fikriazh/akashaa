@@ -80,7 +80,7 @@ params:
 
     # logo
     label:
-         text: "Akasha"
+         text: "Mahasemesta"
          icon: icon.png
          iconHeight: 35
 
