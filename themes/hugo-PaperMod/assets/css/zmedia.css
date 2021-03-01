@@ -21,6 +21,9 @@
 
     .first-entry .entry-header h1{
         display:block;
+        text-transform: uppercase;
+        font-family: 'Exo 2', sans-serif;
+        letter-spacing: 3px; 
     }
 
     .first-entry .entry-content {

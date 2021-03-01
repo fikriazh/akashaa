@@ -54,6 +54,15 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 /* tombol */
 
-#tombol:hover {
+.tombol {
     text-decoration: underline;
+    font-weight: bold;  
+}
+
+/* judul */
+
+#judul {
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 3px;    
 }

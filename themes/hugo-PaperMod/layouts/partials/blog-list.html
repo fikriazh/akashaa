@@ -1,7 +1,7 @@
 <header class="page-header">
-    <button id="tombol" onclick="openPanel('searc')">Search</button>
-    <button id="tombol" onclick="openPanel('cat')" style="margin:0 2%;">Categories</button>
-    <button id="tombol" onclick="openPanel('tag')">Tags</button>
+    <button class="tablink" onclick="openPanel(event, 'searc')">Search</button>
+    <button class="tablink tombol" onclick="openPanel(event,'cat')" style="margin:0 2%;">Categories</button>
+    <button class="tablink" onclick="openPanel(event,'tag')">Tags</button>
 </header>
 
 <ul class="terms-tags" id="searc" style="display:none">
@@ -41,12 +41,17 @@
 </ul>
 
 <script>
-    function openPanel(panelName) {
-      var i;
-      var x = document.getElementsByClassName("terms-tags");
+    function openPanel(evt, panelName) {
+      var i, x, tablinks;
+      x = document.getElementsByClassName("terms-tags");
       for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";  
       }
-      document.getElementById(panelName).style.display = "block";  
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" tombol", "");
+      }
+      document.getElementById(panelName).style.display = "block";
+      evt.currentTarget.className += " tombol";  
     }
 </script>
