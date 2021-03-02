@@ -25,13 +25,15 @@ languages:
                 - name: About
                   url: about/
                   weight: 1
+                  pre:
                 - name: Blog
                   url: blog/
                   weight: 2
+                  pre:
                 - name: Contact
                   url: contact/
                   weight: 3
-                
+                  pre:
                 
 outputs:
     home:
@@ -48,6 +50,8 @@ params:
     author: Akasha
     # author: ["Me", "You"] # multiple authors
 
+    gotop: chevron-up
+
     defaultTheme: dark
     disableThemeToggle: true
     ShowShareButtons: true
@@ -63,7 +67,7 @@ params:
     profileMode:
         enabled: false
         title: PaperMod
-        imageUrl: "ms.png"
+        imageUrl: "favicon/android-chrome-192x192.png"
         imageTitle: my image
         # imageWidth: 120
         # imageHeight: 120

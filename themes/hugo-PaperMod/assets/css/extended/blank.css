@@ -76,6 +76,18 @@ h1, h2, h3, #menu {
 
 .dud { color: #757575;}
 
+/* padding body */
+
 body {
     padding-top:1.5rem;
+}
+
+/* keterangan gambar */
+
+.post-content figure>figcaption {
+    text-align: center;
+    color: currentColor;
+    font-size: 15px;
+    font-weight:normal;
+    margin:5px 0;
 }

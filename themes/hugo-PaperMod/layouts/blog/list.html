@@ -73,11 +73,17 @@
     {{- if $paginator.HasPrev }}
     <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
     {{- end }}
+
+    <a class="prev" style="margin:0 10px">
+        {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}
+    </a>
+
     {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    <a class="prev" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
     {{- end }}
   </nav>
 </footer>
 {{- end }}
+
 {{end}}{{/* end profileMode */}}
 {{- end }}{{- /* end main */ -}}

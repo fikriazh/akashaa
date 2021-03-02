@@ -1,0 +1,44 @@
+{{define "main"}}
+
+<!-- subtitle -->
+<article class="first-entry home-info">
+    <header class="entry-header"><h1>Mahasemesta</h1></header>
+    <section class="entry-content">
+        <p>
+            Welcome to demo of hugo’s theme PaperMod. ☄️ <strong>PaperMod</strong> is a simple but fast and responsive theme with useful feature-set that enhances UX. ☁️ PaperMod is based on theme
+            <a href="https://github.com/nanxiaobei/hugo-paper">Paper</a>.
+        </p>
+    </section>    
+</article>
+
+<!-- show latest post -->
+<h2 style="margin-bottom: 20px; text-align: center;">Latest blog</h2>
+{{ range first 1 .Site.RegularPages }}
+<article class="post-entry">
+    {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList)}}
+    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+    <header class="entry-header">
+      <h2>
+        {{ .Title }}       
+      </h2>
+    </header>
+    {{- if (ne .Site.Params.hideSummary true)}}
+    <section class="entry-content">
+      <p>{{ .Summary | plainify | htmlUnescape }}...</p>
+    </section>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <footer class="entry-footer">
+      {{- partial "post_meta.html" . -}}
+    </footer>
+    {{- end }}
+    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    <footer class="page-footer" style="margin-top:20px">
+      <nav class="pagination">
+        <a class="prev" href="{{ "blog" | absURL }}">See all blogs</a>
+      </nav>
+    </footer>
+</article>
+{{end}}
+
+{{end}}

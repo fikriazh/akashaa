@@ -1,0 +1,132 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{- partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+      {{- if .Draft }}<div class="entry-isdraft"><sup>&nbsp;&nbsp;[draft]</sup></div>{{- end }}
+    </h1>
+
+    <!-- description moved to cover image caption
+    {{/* - if .Description */}}
+     <div class="post-description">
+      {{/* .Description */}}
+    </div> 
+    {{/*- end */}}
+    -->
+    
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" .  -}}
+      {{- partial "translation_list.html" . -}}
+    </div>
+    {{- end}}
+  </header>
+  {{- $isHidden := .Params.cover.hidden | default .Site.Params.cover.hiddenInSingle | default .Site.Params.cover.hidden}}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  <div class="toc">
+    <details {{if (.Param "TocOpen") }} open{{ end }}>
+      <summary accesskey="c" title="(Alt + C)">
+        <div class="details">{{- i18n "toc" | default "Table of Contents" }}</div>
+      </summary>
+      <div class="inner">
+        {{- partial "toc.html" . }}
+      </div>
+    </details>
+  </div>
+  {{- end }}
+  <div class="post-content">
+    {{- partial "anchored_headings.html" .Content -}}
+  </div>
+  <footer class="post-footer">
+    {{- if .Params.tags }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms "tags") }}
+      <li><a href="{{ .Permalink }}"># {{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- if .Site.Params.ShowPostNavLinks }}
+    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- if and (gt (len $pages) 1) (in $pages . ) }}
+    <nav class="paginav">
+      {{- with $pages.Next . }}
+      <a class="prev" href="{{.Permalink}}">
+        <span class="title">« {{ i18n "prev_page" }}</span>
+        <br>
+        <span>{{- .Name -}}</span>
+      </a>
+      {{- end}}
+      {{- with $pages.Prev . }}
+      <a class="next" href="{{.Permalink}}">
+        <span class="title">{{ i18n "next_page" }} »</span>
+        <br>
+        <span>{{- .Name -}}</span>
+      </a>
+      {{- end}}
+    </nav>
+    {{- end }}
+    {{- end }}
+    {{- if (and .Site.Params.ShowShareButtons (ne .Params.disableShare true) ) }}
+    {{- partial "share_icons.html" . }}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+  <button class="top-link" id="top-link" type="button" accesskey="g">
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+          <path d="M12 6H0l6-6z" />
+      </svg> -->
+      <i class="fas fa-{{ .Site.Params.gotop }}"></i>
+  </button>
+</a>
+
+<script>
+  window.onload = function () {
+      if (localStorage.getItem("menu-scroll-position")) {
+          document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+      }
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          var id = this.getAttribute("href").substr(1);
+          if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+              document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                  behavior: "smooth"
+              });
+          } else {
+              document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+          }
+          if (id === "top") {
+              history.replaceState(null, null, " ");
+          } else {
+              history.pushState(null, null, `#${id}`);
+          }
+      });
+  });
+  var mybutton = document.getElementById("top-link");
+  window.onscroll = function () {
+      if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+          mybutton.style.visibility = "visible";
+          mybutton.style.opacity = "1";
+      } else {
+          mybutton.style.visibility = "hidden";
+          mybutton.style.opacity = "0";
+      }
+  };
+
+  function menu_on_scroll() {
+      localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+  }
+
+</script>
+
+{{- end  }}{{/* end main */}}

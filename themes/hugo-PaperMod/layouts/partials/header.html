@@ -118,8 +118,11 @@
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
+                    {{ if .Pre }}
+                    <i class="fas fa-{{ .Pre }}" style="margin-inline: 0 10px;"></i>
+                    {{end}}
                     <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
-                        {{- .Name -}}
+                         {{- .Name -}}
                     </span>
                 </a>
             </li>
