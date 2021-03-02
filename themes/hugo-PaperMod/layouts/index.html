@@ -33,12 +33,13 @@
     </footer>
     {{- end }}
     <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-    <footer class="page-footer" style="margin-top:20px">
+</article>
+{{end}}
+
+<footer class="page-footer" style="margin-top:20px">
       <nav class="pagination">
         <a class="prev" href="{{ "blog" | absURL }}">See all blogs</a>
       </nav>
-    </footer>
-</article>
-{{end}}
+</footer>
 
 {{end}}
