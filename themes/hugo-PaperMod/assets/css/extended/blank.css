@@ -75,3 +75,7 @@ h1, h2, h3, #menu {
 /* scramble */
 
 .dud { color: #757575;}
+
+body {
+    padding-top:1.5rem;
+}
