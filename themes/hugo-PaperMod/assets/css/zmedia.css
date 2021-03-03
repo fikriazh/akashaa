@@ -40,7 +40,11 @@
     #menu {
         overflow-x: none;
         margin:0;
-    }    
+    }
+    
+    .page-header h1 {
+        font-size: 25px;
+    }
     
 }    
 

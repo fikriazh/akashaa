@@ -60,8 +60,13 @@ h1, h2, h3, #menu {
 /* tombol */
 
 .tombol {
-    text-decoration: underline;
-    font-weight: bold;  
+    border:currentColor thin solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.tablink {
+    padding-right:5px;
 }
 
 /* judul */
@@ -90,4 +95,16 @@ body {
     font-size: 15px;
     font-weight:normal;
     margin:5px 0;
+}
+
+/* pagination */
+
+#urlList {
+    margin:0 15px;
+    border-radius: 10px;
+    width: 75px;
+    text-align: center;
+    padding-left: 9px;
+    background: var(--primary);
+    color: var(--theme);
 }

@@ -7,12 +7,10 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }}
-    <sup>{{ len (where .Site.RegularPages "Section" "==" "blog") }}</sup>
-  </h1>  
+  <h1>{{ .Title }}</h1>  
   
   <div class="post-description">
-    {{ .Site.Params.blogDescription }}
+    {{ len (where .Site.RegularPages "Section" "==" "blog") }} stories of Mahasemesta
   </div>
   
 </header>
@@ -76,9 +74,30 @@
     <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
     {{- end }}
 
-    <a class="prev" style="margin:0 10px">
-        {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}
-    </a>
+    <script type="text/javascript">
+      function goTo() {
+      var sE = null, url;
+      if(document.getElementById) {
+      sE = document.getElementById('urlList');
+      } else if(document.all) {
+      sE = document.all['urlList'];
+      }
+      if(sE && (url = sE.options[sE.selectedIndex].value)) {
+      location.href = url;
+      }
+      }
+    </script>
+
+    {{ $halaman := .Paginator.PageNumber }}
+
+    <select id="urlList" size="1" onChange="goTo();">
+      <option selected disabled hidden>{{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}</option>
+      
+      {{ range $paginator.Pagers }}
+      <option value="{{ if ne $halaman .PageNumber }}{{ .URL }}{{end}}" {{ if eq $halaman .PageNumber }}style="display:none;"{{end}}>{{ .PageNumber }}</option>
+      {{ end }}      
+      
+    </select>      
 
     {{- if $paginator.HasNext }}
     <a class="prev" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
