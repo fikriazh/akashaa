@@ -3,7 +3,6 @@ date: 2021-02-11
 title: "Formating"
 categories: ["Hugo"]
 tags: ["Soul", "Therapy", "Energy"]
-ShowToc: true
 description: "Without farther she exposed saw man led"
 cover:
     image: "https://source.unsplash.com/1600x900/?animal"

@@ -7,10 +7,12 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }}</h1>
+  <h1>{{ .Title }}
+    <sup>{{ len (where .Site.RegularPages "Section" "==" "blog") }}</sup>
+  </h1>  
   
   <div class="post-description">
-    This is blog list page
+    {{ .Site.Params.blogDescription }}
   </div>
   
 </header>

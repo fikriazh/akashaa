@@ -1,5 +1,7 @@
 {{- define "main" }}
 
+{{ $judul := .Title }}
+
 {{- if (and .Site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
@@ -7,7 +9,21 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }} category</h1>
+  <h1><i class="fas fa-folder-open" style="margin-inline: 7.5px;"></i>{{ .Title }}
+  
+  <sup>
+    {{ range .Site.Taxonomies.categories }}
+    <li style="list-style-type: none; display:inline;
+    {{if ne .Page.Title $judul}}
+      display:none;
+    {{end}}
+    ">
+    {{ .Count }}
+    </li>
+    {{end}}
+  </sup>
+
+  </h1>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description }}
@@ -16,10 +32,10 @@
 </header>
 {{- end }}
 
-<ul class="terms-tags" id="cat" style="margin-bottom: 20px;"> 
-  {{ range .Site.Taxonomies.categories }}
-  <li>
-      <a href="{{ .Page.Permalink }}">{{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
+<ul class="terms-tags" id="cat" style="margin-bottom: 20px;">  
+  {{ range .Site.Taxonomies.categories }}  
+  <li {{ if eq .Page.Title $judul }}style="display:none;"{{end}}>    
+      <a href="{{ .Page.Permalink }}"><i class="fas fa-folder-open" style="margin-inline: 5px;"></i>{{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
   </li>
   {{- end }}
   
@@ -78,11 +94,17 @@
     {{- if $paginator.HasPrev }}
     <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
     {{- end }}
+
+    <a class="prev" style="margin:0 10px">
+        {{.Paginator.PageNumber}} of {{.Paginator.TotalPages}}
+    </a>
+
     {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
+    <a class="prev" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
     {{- end }}
   </nav>
 </footer>
 {{- end }}
+
 {{end}}{{/* end profileMode */}}
 {{- end }}{{- /* end main */ -}}

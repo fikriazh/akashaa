@@ -51,6 +51,7 @@ params:
     # author: ["Me", "You"] # multiple authors
 
     gotop: chevron-up
+    blogDescription: Story of Mahasemesta
 
     defaultTheme: dark
     disableThemeToggle: true

@@ -1,14 +1,12 @@
 {{- $scratch := newScratch}}
 
+{{ $kategori := partial "categories.html" .  }}
+
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))) }}
+{{- $scratch.Add "meta" (slice (.Date.Format (default "2 January 2006" .Site.Params.DateFormat))) }}
 {{- end -}}
 
-{{- $scratch.Add "meta" (slice (i18n "word_count" .WordCount | default (printf "%s min" .WordCount))) }}
-
-{{ with (partial "author.html" . ) }}
-{{ $scratch.Add "meta" (slice .)}}
-{{end}}
+{{- $scratch.Add "meta" $kategori }}
 
 {{- with ($scratch.Get "meta")}}
 {{- delimit . "&nbsp;·&nbsp;"}}

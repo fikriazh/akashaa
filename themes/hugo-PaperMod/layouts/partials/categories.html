@@ -1,0 +1,3 @@
+{{- range ($.GetTerms "categories") }}
+      <span><i class="fas fa-folder-open" style="margin-inline: 0 5px;"></i><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></span>
+{{- end }}

@@ -1,13 +1,13 @@
 <header class="page-header">
-    <button class="tablink" onclick="openPanel(event, 'searc')">Search</button>
-    <button class="tablink tombol" onclick="openPanel(event,'cat')" style="margin:0 2%;">Categories</button>
-    <button class="tablink" onclick="openPanel(event,'tag')">Tags</button>
+    <button class="tablink" onclick="openPanel(event, 'searc')"><i class="fas fa-search" style="margin-inline: 5px;"></i>Search</button>
+    <button class="tablink tombol" onclick="openPanel(event,'cat')" style="margin:0 2%;"><i class="fas fa-folder-open" style="margin-inline: 5px;"></i>Categories</button>
+    <button class="tablink" onclick="openPanel(event,'tag')"><i class="fas fa-hashtag" style="margin-inline: 5px;"></i>Tags</button>
 </header>
 
 <ul class="terms-tags" id="searc" style="display:none">
     <li>
-        <a href="{{ "search" | absLangURL }}" id="cari">  
-
+        <a href="{{ "search" | absLangURL }}" id="cari"> 
+        
         Search blog
 
         <sup>
@@ -25,7 +25,7 @@
 <ul class="terms-tags" id="cat">
     {{ range .Site.Taxonomies.categories }}
     <li>
-        <a href="{{ .Page.Permalink }}">{{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
+        <a href="{{ .Page.Permalink }}"><i class="fas fa-folder-open" style="margin-inline: 5px;"></i>{{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
     </li>
     {{- end }}
     
