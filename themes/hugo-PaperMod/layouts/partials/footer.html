@@ -2,7 +2,7 @@
     {{- if .Site.Copyright }}
     <span>{{ .Site.Copyright | markdownify }}</span>
     {{- else }}
-    <span>&copy; {{ now.Year }} <a onclick="myFunction()" style="cursor: pointer;" title="Show the ingredients of this site">
+    <span><a href="{{ "privacy-policy" | absURL }}" title="Show our Privacy & Policy">&copy; {{ now.Year }}</a><a onclick="myFunction()" style="cursor: pointer;" title="Show the ingredients of this site">
         <br>                
         <span class="scrambel"></span></a>
     </span>

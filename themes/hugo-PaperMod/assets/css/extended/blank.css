@@ -9,6 +9,11 @@ h1, h2, h3, #menu {
     font-family: 'Exo 2', sans-serif;
  }
 
+ .post-content {
+     font-size: 16px;
+     hyphens: auto;
+ }
+
 #search_svg {
     margin-right: 10px;
 }
