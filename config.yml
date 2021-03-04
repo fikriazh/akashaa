@@ -50,6 +50,8 @@ params:
     author: Akasha
     # author: ["Me", "You"] # multiple authors
 
+    homesubtitle: Welcome, we provide various kind of hypnotherapy services. Either relaxing meditation or trauma healing.
+
     gotop: chevron-up
 
     defaultTheme: dark
@@ -76,11 +78,6 @@ params:
               url: archives
             - name: Tags
               url: tags
-
-    homeInfoParams:
-        Title: "Mahasemesta"
-        Content: >
-            Welcome to Mahasemesta. We provide various kind of hypnotherapy services. Either you wanna get some recreational past event (even past live, if you believe) or heal your trauma, you decide. We work with your emotional and feeling realm, and explore them in your full conscience. See services page for full explaination.
 
     # logo
     label:

@@ -21,8 +21,8 @@
 
     .first-entry .entry-header h1{
         display:block;
-        text-transform: uppercase;        
-        letter-spacing: 3px; 
+        text-transform: uppercase;
+        letter-spacing: 3px;
     }
 
     .first-entry .entry-content {
@@ -34,19 +34,19 @@
     }
 
     .main {
-        padding:3%;
+        padding:5%;
     }
 
     #menu {
         overflow-x: none;
         margin:0;
     }
-    
+
     .page-header h1 {
         font-size: 25px;
     }
-    
-}    
+
+}
 
 @media screen and (max-width: 768px) {
     /* theme-vars */

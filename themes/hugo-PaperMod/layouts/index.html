@@ -2,24 +2,28 @@
 
 <!-- subtitle -->
 <article class="first-entry home-info">
-    <header class="entry-header"><h1>Mahasemesta</h1></header>
+    <header class="entry-header"><h1>{{ .Site.Title }}</h1></header>
     <section class="entry-content">
         <p>
-            Welcome to demo of hugo’s theme PaperMod. ☄️ <strong>PaperMod</strong> is a simple but fast and responsive theme with useful feature-set that enhances UX. ☁️ PaperMod is based on theme
-            <a href="https://github.com/nanxiaobei/hugo-paper">Paper</a>.
+            {{ .Site.Params.homesubtitle }}
         </p>
-    </section>    
+        <footer class="page-footer" style="margin-top:20px">
+              <nav class="pagination">
+                <a class="prev" href="{{ "about" | absURL }}">Our services</a>
+              </nav>
+        </footer>
+    </section>
 </article>
 
 <!-- show latest post -->
-<h2 style="margin-bottom: 20px; text-align: center;">Latest blog</h2>
+<h2 style="margin: 20px 0; text-align: center;">Latest blog</h2>
 {{ range first 1 .Site.RegularPages }}
 <article class="post-entry">
     {{- $isHidden := (.Site.Params.cover.hidden | default .Site.Params.cover.hiddenInList)}}
     {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
     <header class="entry-header">
       <h2>
-        {{ .Title }}       
+        {{ .Title }}
       </h2>
     </header>
     {{- if (ne .Site.Params.hideSummary true)}}
