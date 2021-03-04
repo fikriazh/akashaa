@@ -25,15 +25,15 @@ languages:
                 - name: About
                   url: about/
                   weight: 1
-                  pre:
+                  pre: bookmark
                 - name: Blog
                   url: blog/
                   weight: 2
-                  pre:
+                  pre: book
                 - name: Contact
                   url: contact/
                   weight: 3
-                  pre:
+                  pre: phone
 
 outputs:
     home:
