@@ -9,7 +9,7 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1><i class="fas fa-folder-open" style="margin-inline: 7.5px;"></i>{{ .Title }}
+  <h1><i class="fas fa-folder-open"></i>&nbsp;{{ .Title }}
   
   <sup>
     {{ range .Site.Taxonomies.categories }}
@@ -35,7 +35,7 @@
 <ul class="terms-tags" id="cat" style="margin-bottom: 20px;">  
   {{ range .Site.Taxonomies.categories }}  
   <li {{ if eq .Page.Title $judul }}style="display:none;"{{end}}>    
-      <a href="{{ .Page.Permalink }}"><i class="fas fa-folder-open" style="margin-inline: 5px;"></i>{{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
+      <a href="{{ .Page.Permalink }}"><i class="fas fa-folder-open"></i>&nbsp;{{ .Page.Title }} <sup><strong><sup>{{ .Count }}</sup></strong></sup> </a>
   </li>
   {{- end }}
   
