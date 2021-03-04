@@ -34,7 +34,7 @@ languages:
                   url: contact/
                   weight: 3
                   pre:
-                
+
 outputs:
     home:
         - HTML
@@ -80,7 +80,7 @@ params:
     homeInfoParams:
         Title: "Mahasemesta"
         Content: >
-            Welcome to demo of hugo's theme PaperMod. ☄️ **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX. ☁️ PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper).
+            Welcome to Mahasemesta. We provide various kind of hypnotherapy services. Either you wanna get some recreational past event (even past live, if you believe) or heal your trauma, you decide. We work with your emotional and feeling realm, and explore them in your full conscience. See services page for full explaination.
 
     # logo
     label:
@@ -109,7 +109,7 @@ params:
 taxonomies:
     category: categories
     tag: tags
-    series: series    
+    series: series
 
 # markup:
 #     highlight:
@@ -121,7 +121,7 @@ taxonomies:
 #         style: monokai
 
 privacy:
-    
+
     twitter:
         disabled: false
         enableDNT: true
